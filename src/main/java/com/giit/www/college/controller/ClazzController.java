@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 @Controller
 @RequestMapping("clazz.do")
 public class ClazzController {
-
+//modify
     @Resource(name = "clazzBizImpl")
     private ClazzBiz clazzBiz;
 
